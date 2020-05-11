@@ -10,7 +10,7 @@ public class LoseCollider : MonoBehaviour {
     private void OnTriggerEnter2D(Collider2D collision)
     {
         lives--;
-        if(lives == 0)
+        if (lives == 0)
         {
             SceneManager.LoadScene("Game Over");
         }
@@ -21,5 +21,4 @@ public class LoseCollider : MonoBehaviour {
 
         }
     }
-
 }
