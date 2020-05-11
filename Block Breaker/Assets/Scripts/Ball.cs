@@ -11,7 +11,7 @@ public class Ball : MonoBehaviour {
 
     // state
     Vector2 paddleToBallVector;
-    bool hasStarted = false;
+    public bool hasStarted = false;
 
     // Cached component references
     AudioSource myAudioSource;
